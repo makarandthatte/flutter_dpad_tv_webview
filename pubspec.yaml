@@ -2,7 +2,7 @@ name: dpad_tv_webview
 description: WebView which can be naviagted by DPAD only. Useful for Android TV
 version: 0.0.1
 author: Makarand Thatte <makthatte2010@gmail.com>
-homepage:
+homepage: https://github.com/makarandthatte/flutter_dpad_tv_webview.git
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
@@ -10,6 +10,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
+  webview_flutter: ^0.3.13
 
 dev_dependencies:
   flutter_test:
