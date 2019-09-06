@@ -1,5 +1,5 @@
 name: dpad_tv_webview
-description: WebView which can be naviagted by DPAD only. Useful for Android TV
+description: WebView which can be navigated by DPAD only. Useful for Android TV
 version: 0.0.1
 author: Makarand Thatte <makthatte2010@gmail.com>
 homepage: https://github.com/makarandthatte/flutter_dpad_tv_webview.git
