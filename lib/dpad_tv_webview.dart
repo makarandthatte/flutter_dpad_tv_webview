@@ -17,7 +17,7 @@ class WebViewForTV extends StatefulWidget {
 }
 
 class _WebViewForTV extends State<WebViewForTV> {
-  WebViewController _controller;
+//  WebViewController _controller;
   WebView _webView;
   Set<Factory<OneSequenceGestureRecognizer>> _gestureRecognizers;
   String _userAgent;
@@ -30,7 +30,7 @@ class _WebViewForTV extends State<WebViewForTV> {
       onWebViewCreated: _handleWebViewWidget,
       initialUrl: widget.initialUrl,
       javascriptMode: JavascriptMode.unrestricted,
-      navigationDelegate: _navigationDelegate,
+//      navigationDelegate: _navigationDelegate,
       gestureRecognizers: _gestureRecognizers,
       onPageFinished: _handlePageFinished,
       userAgent: _userAgent,
@@ -43,10 +43,10 @@ class _WebViewForTV extends State<WebViewForTV> {
   }
 
   void _handleWebViewWidget(WebViewController controller) {
-    _controller = controller;
+//    _controller = controller;
   }
 
   void _handlePageFinished(String url) {}
 
-  NavigationDecision _navigationDelegate(NavigationRequest navigation) {}
+//  NavigationDecision _navigationDelegate(NavigationRequest navigation) {}
 }
